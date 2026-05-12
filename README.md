@@ -20,7 +20,7 @@
 | `1` | Recarga | Operadora (TIM/CLARO/VIVO/OI), DDD, número e valor (mín. R$ 10,00). Gera 1% de comissão |
 | `2` | Saldo | Exibe o saldo atual acumulado de comissões |
 | `3` | Extrato | Lista todas as recargas com data, hora, operadora, número, valor e comissão |
-| `4` | Saque | Saca o saldo se ≥ R$ 100,00. Valor mín. de saque: R$ 100,00 |
+| `4` | Saque | Saca o saldo se ≥ R$ 100,00. Valor mínimo de saque: R$ 100,00 |
 | `Q` | Sair | Encerra o programa |
 
 ---
@@ -50,7 +50,7 @@ git clone https://github.com/IgorASB/Recarga-de-celular.git
 cd Recarga-de-celular
 
 # 2. Execute
-python recarga_celular.py
+python recarga.py
 ```
 
 ---
@@ -72,7 +72,7 @@ python recarga_celular.py
 
 ```
 Recarga-de-celular/
-├── recarga_celular.py   # Código-fonte principal
+├── recarga.py   # Código-fonte principal
 └── README.md
 ```
 
